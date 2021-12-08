@@ -1,11 +1,26 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
     color: red;
   }
 
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
   p {
     font-size: 16px;
     font-family: monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+  }
+
+  .smaller-image {
+    width: 100px;
   }
 </style>
 
@@ -13,7 +28,7 @@
 <main>
   <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
 
-  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <a href="#"><img class="smaller-image thick-green-border" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 
   <div>
     <p>Things cats love:</p>
@@ -41,12 +56,20 @@
   </form>
 </main>
 
-<!--definir qual tipografia um elemento deve usar utilizando a propriedade font-family.
+<!--As bordas CSS têm propriedades como style, colore width.
 
-Por exemplo, se você quiser definir a tipografia do elemento h2 como sans-serif, deverá usar o seguinte CSS:
+Por exemplo, se quiséssemos criar uma borda vermelha de 5 pixels em torno de um elemento HTML, poderíamos usar esta classe:
 
-h2 {
-  font-family: sans-serif;
-}
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+Lembre-se de que você pode aplicar várias classes a um elemento usando seu classatributo, separando cada nome de classe com um espaço. Por exemplo:
+
+<img class="class1 class2">
+
 
 -->

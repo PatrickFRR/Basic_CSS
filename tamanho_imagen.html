@@ -1,6 +1,20 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
     color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+
+  .smaller-image {
+    width: 100px;
   }
 </style>
 
@@ -8,7 +22,7 @@
 <main>
   <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
 
-  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  <a href="#"><img class="smaller-image" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 
   <div>
     <p>Things cats love:</p>
@@ -36,6 +50,13 @@
   </form>
 </main>
 
+<!--CSS tem uma propriedade chamada widthque controla a largura de um elemento. Assim como com as fontes, usaremos px(pixels) para especificar a largura da imagem.
 
-<!-- As classes permitem que você use os mesmos estilos CSS em diferentes elementos HTML. 
-    Você pode ver isso aplicando a classe red-text ao primeiro elemento p.-->
+Por exemplo, se quiséssemos criar uma classe CSS chamada larger-imageque desse aos elementos HTML uma largura de 500 pixels, usaríamos:
+
+<style>
+  .larger-image {
+    width: 500px;
+  }
+</style>
+-->

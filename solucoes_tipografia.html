@@ -1,6 +1,16 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   .red-text {
     color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
   }
 </style>
 
@@ -34,8 +44,19 @@
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
   </form>
-</main>
+</main><!--
+Por padrão, existem várias tipografias disponíveis em todos os navegadores. 
+As tipografias padrão são: monospace, serif e sans-serif.
 
+Quando uma tipografia não estiver disponível, você pode dizer ao navegador para usar outra tipografia.
 
-<!-- As classes permitem que você use os mesmos estilos CSS em diferentes elementos HTML. 
-    Você pode ver isso aplicando a classe red-text ao primeiro elemento p.-->
+Por exemplo, se um elemento usa a tipografia Helvetica, 
+mas você quer que ele use sans-serif quando a Helvetica não estiver disponível, você pode fazer assim:
+
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+O nome dessas tipografias não diferenciam maiúsculas de minúsculas.
+ Além disso, eles não precisam de aspas porque são palavras-chave do CSS.
+-->
